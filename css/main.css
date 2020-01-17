@@ -1,0 +1,11 @@
+.img-wrapper {
+	display: inline-block;
+	width: 35%;
+}
+
+/*greater than symbol selects everything to the left. The 100% means it will
+/*be the width of it's parent container*/
+
+.img-wrapper > img {
+	width: 100%;
+}
