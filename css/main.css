@@ -1,0 +1,30 @@
+.img-wrapper {
+	display: inline-block;
+	width: 35%;
+}
+
+/*greater than symbol selects everything to the left. The 100% means it will
+/*be the width of it's parent container*/
+
+.img-wrapper > img {
+	width: 100%;
+}
+
+.black-background {
+	background-color: black;
+}
+
+/* .st0 {
+	fill:#333 !important;
+} */
+
+
+#rGrain:hover, #lGrain:hover {
+	fill: red;
+}
+
+/* #beerGraphic:hover #rGrain {fill: red;}
+
+#beerGraphic:hover #lGrain {fill: red;} 
+
+Above, you can target both the grains. or change the colors of each. */
