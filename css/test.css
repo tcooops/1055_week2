@@ -1,0 +1,42 @@
+
+body {
+	font-size: 14px;
+	padding: 1em;
+	/*** an em is a relative mesaurment set by the font size of the body. in this case, 1 em = 14px ***/
+}
+
+main span {  
+	padding: 0.75em 1em;
+	cursor: pointer;
+}
+
+object { 
+	width: 8em;
+}
+
+/*** * for select all ***/
+.img-wrapper > * {
+	pointer-events: none;
+
+}
+
+.selected {
+	color: magenta;
+}
+
+.selected::before {
+	content: "\2192"; /*** the \2192 is the arrow ***/
+}
+
+.bananaLeaf {
+	cursor: pointer;
+
+}
+
+#some-id {
+	
+}
+
+#some-element {
+
+}
